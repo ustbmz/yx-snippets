@@ -1,0 +1,25 @@
+{
+    "name": "abowa-snippets",
+    "publisher":"cnmz",
+    "displayName": "abowa-snippets",
+    "description": "abwoa vue2 snuppets",
+    "version": "0.0.3",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
