@@ -4,7 +4,7 @@
     "displayName": "abowa-snippets",
     "description": "abwoa vue2 snuppets",
     "repository":"https://github.com/ustbmz/abowa-snippets",
-    "version": "0.0.6",
+    "version": "0.1.1",
     "engines": {
         "vscode": "^1.66.0"
     },

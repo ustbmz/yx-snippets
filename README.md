@@ -6,4 +6,4 @@ eastcom Communications Co., LTD
 
 ## Abowa 项目专用快捷代码
 
-* abowa-datetime-select 快速完成起始日期与结束日期选择页面
+* abowa-empty-templete 空白模板(HostMessage,mapState)
