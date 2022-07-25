@@ -1,5 +1,5 @@
 {
-  "abwoa-empty-templete": {
+  "as-empty-templete": {
     "prefix": "abwoa-empty-templete",
     "body": [
       "<template>",
@@ -43,5 +43,29 @@
       ""
     ],
     "description": "初始化空白模板"
+  },
+  "as-HostMessage": {
+    "prefix": "",
+    "body": [
+      "let ret = await this.$HostMessage({",
+      "  action: 'action_name',",
+      "  StartPageInfo: '正在交易处理，请稍候...'",
+      "});"
+    ],
+    "description": ""
+  },
+  "as-setDD": {
+    "prefix": "",
+    "body": [
+      "this.$dataDic.setDD('t.xxx', value);"
+    ],
+    "description": ""
+  },
+  "as-getDD": {
+    "prefix": "",
+    "body": [
+      "this.$dataDic.getDD('t.xxx');"
+    ],
+    "description": ""
   }
 }
