@@ -11,5 +11,7 @@ eastcom Communications Co., LTD
 
 ## 常用代码片段
 * as-hostmessage 发送报文
+* abwoa-loading 等待
+* abwoa-trace 日志
 * as-setDD 变量赋值
 * as-getDD 变量取值

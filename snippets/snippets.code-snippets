@@ -1,6 +1,6 @@
 {
-  "as-empty-templete": {
-    "prefix": "abwoa-empty-templete",
+  "abwoa-empty-templete": {
+    "prefix": "as-empty-templete",
     "body": [
       "<template>",
       "  <div></div>",
@@ -44,27 +44,44 @@
     ],
     "description": "初始化空白模板"
   },
-  "as-HostMessage": {
-    "prefix": "",
+  "abwoa-HostMessage": {
+    "prefix": "as-HostMessage",
     "body": [
       "let ret = await this.$HostMessage({",
-      "  action: 'action_name',",
-      "  StartPageInfo: '正在交易处理，请稍候...'",
-      "});"
+      "        action: 'action_name',",
+      "        StartPageInfo: '正在交易处理，请稍候...'",
+      "      });",
+      "      if (ret == 'ok') {",
+      "",
+      "      }"
     ],
     "description": ""
   },
-  "as-setDD": {
-    "prefix": "",
+  "abwoa-loading": {
+    "prefix": "as-loading",
+    "body": [
+      "await this.openLoading('xxxx', 'el-icon-warning red', 3000);"
+    ],
+    "description": ""
+  },
+  "abwoa-setDD": {
+    "prefix": "as-setDD",
     "body": [
       "this.$dataDic.setDD('t.xxx', value);"
     ],
     "description": ""
   },
-  "as-getDD": {
-    "prefix": "",
+  "abwoa-getDD": {
+    "prefix": "as-getDD",
     "body": [
       "this.$dataDic.getDD('t.xxx');"
+    ],
+    "description": ""
+  },
+  "abwoa-trace": {
+    "prefix": "as-trace",
+    "body": [
+      "Trace(EC_INFO, 'xxxx' + value);"
     ],
     "description": ""
   }
