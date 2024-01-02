@@ -59,17 +59,17 @@
   // },
   "yx-send": {
     "prefix": "yx-send",
-    "body": ["await this.$myApi.send('')"],
+    "body": ["const {data} = await this.$$myApi.xxx($params)"],
     "description": ""
   },
   "yx-sdd": {
     "prefix": "yx-sdd",
-    "body": ["this.$myBus.setTradeData('xxx', value)"],
+    "body": ["this.$$myBus.setTradeData('$xxx', value)"],
     "description": ""
   },
   "yx-gdd": {
     "prefix": "yx-gdd",
-    "body": ["this.$myBus.setTradeData('xxx', value)"],
+    "body": ["this.$$myBus.setTradeData('$xxx', value)"],
     "description": ""
   }
 }
