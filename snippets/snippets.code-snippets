@@ -44,45 +44,32 @@
     ],
     "description": "初始化空白模板"
   },
-  "abwoa-HostMessage": {
-    "prefix": "as-HostMessage",
-    "body": [
-      "let ret = await this.$HostMessage({",
-      "        action: 'action_name',",
-      "        StartPageInfo: '正在交易处理，请稍候...'",
-      "      });",
-      "      if (ret == 'ok') {",
-      "",
-      "      }"
-    ],
+  // "abwoa-HostMessage": {
+  //   "prefix": "as-HostMessage",
+  //   "body": [
+  //     "let ret = await this.$HostMessage({",
+  //     "        action: 'action_name',",
+  //     "        StartPageInfo: '正在交易处理，请稍候...'",
+  //     "      });",
+  //     "      if (ret == 'ok') {",
+  //     "",
+  //     "      }"
+  //   ],
+  //   "description": ""
+  // },
+  "yx-send": {
+    "prefix": "yx-send",
+    "body": ["await this.$myApi.send('')"],
     "description": ""
   },
-  "abwoa-loading": {
-    "prefix": "as-loading",
-    "body": [
-      "await this.openLoading('xxxx', 'el-icon-warning red', 3000);"
-    ],
+  "yx-sdd": {
+    "prefix": "yx-sdd",
+    "body": ["this.$myBus.setTradeData('xxx', value)"],
     "description": ""
   },
-  "abwoa-setDD": {
-    "prefix": "as-setDD",
-    "body": [
-      "this.$dataDic.setDD('t.xxx', value);"
-    ],
-    "description": ""
-  },
-  "abwoa-getDD": {
-    "prefix": "as-getDD",
-    "body": [
-      "this.$dataDic.getDD('t.xxx');"
-    ],
-    "description": ""
-  },
-  "abwoa-trace": {
-    "prefix": "as-trace",
-    "body": [
-      "Trace(EC_INFO, 'xxxx' + value);"
-    ],
+  "yx-gdd": {
+    "prefix": "yx-gdd",
+    "body": ["this.$myBus.setTradeData('xxx', value)"],
     "description": ""
   }
 }

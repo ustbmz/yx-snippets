@@ -17,5 +17,5 @@ Yusys Communications Co., LTD
 
 - yx-send 发送报文
 - yx-sdd 变量赋值
-- yx-gtd 变量取值
+- yx-gdd 变量取值
 - ...
