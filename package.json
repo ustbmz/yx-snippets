@@ -2,7 +2,7 @@
     "name": "yx-snippets",
     "publisher": "cnmz",
     "displayName": "yx-snippets",
-    "description": "yx vue3 snuppets",
+    "description": "yx vue3 code snippets",
     "repository": "https://github.com/ustbmz/yx-snippets",
     "version": "1.0.4",
     "engines": {
