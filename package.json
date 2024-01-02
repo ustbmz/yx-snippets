@@ -1,14 +1,14 @@
 {
-    "name": "abowa-snippets",
-    "publisher":"cnmz",
-    "displayName": "abowa-snippets",
-    "description": "abwoa vue2 snuppets",
-    "repository":"https://github.com/ustbmz/abowa-snippets",
-    "version": "0.1.6",
+    "name": "yx-snippets",
+    "publisher": "cnmz",
+    "displayName": "yx-snippets",
+    "description": "yx vue3 snuppets",
+    "repository": "https://github.com/ustbmz/yx-snippets",
+    "version": "1.0.0",
     "engines": {
-        "vscode": "^1.66.0"
+        "vscode": "^1.85.1"
     },
-    "icon":"icon/logo.png",
+    "icon": "icon/logo.png",
     "categories": [
         "Snippets"
     ],
